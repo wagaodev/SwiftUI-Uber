@@ -11,6 +11,8 @@
 		ABC50B3F28ED2C8900FA0CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC50B3E28ED2C8900FA0CD2 /* Assets.xcassets */; };
 		ABC50B4228ED2C8900FA0CD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC50B4128ED2C8900FA0CD2 /* Preview Assets.xcassets */; };
 		ABC50B5028ED2D2600FA0CD2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC50B4F28ED2D2600FA0CD2 /* HomeView.swift */; };
+		ABC50B5228ED2DF600FA0CD2 /* UberMapViewRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC50B5128ED2DF600FA0CD2 /* UberMapViewRepresentable.swift */; };
+		ABC50B5428ED324F00FA0CD2 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC50B5328ED324F00FA0CD2 /* LocationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		ABC50B3E28ED2C8900FA0CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABC50B4128ED2C8900FA0CD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABC50B4F28ED2D2600FA0CD2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ABC50B5128ED2DF600FA0CD2 /* UberMapViewRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UberMapViewRepresentable.swift; sourceTree = "<group>"; };
+		ABC50B5328ED324F00FA0CD2 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +84,7 @@
 		ABC50B4928ED2CAA00FA0CD2 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				ABC50B5328ED324F00FA0CD2 /* LocationManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				ABC50B4F28ED2D2600FA0CD2 /* HomeView.swift */,
+				ABC50B5128ED2DF600FA0CD2 /* UberMapViewRepresentable.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -193,7 +199,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABC50B5428ED324F00FA0CD2 /* LocationManager.swift in Sources */,
 				ABC50B3B28ED2C8600FA0CD2 /* uberApp.swift in Sources */,
+				ABC50B5228ED2DF600FA0CD2 /* UberMapViewRepresentable.swift in Sources */,
 				ABC50B5028ED2D2600FA0CD2 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
