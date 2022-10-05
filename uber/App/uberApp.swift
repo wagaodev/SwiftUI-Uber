@@ -11,7 +11,7 @@ import SwiftUI
 struct uberApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

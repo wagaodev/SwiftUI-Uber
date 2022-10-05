@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		ABC50B3B28ED2C8600FA0CD2 /* uberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC50B3A28ED2C8600FA0CD2 /* uberApp.swift */; };
-		ABC50B3D28ED2C8600FA0CD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC50B3C28ED2C8600FA0CD2 /* ContentView.swift */; };
 		ABC50B3F28ED2C8900FA0CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC50B3E28ED2C8900FA0CD2 /* Assets.xcassets */; };
 		ABC50B4228ED2C8900FA0CD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABC50B4128ED2C8900FA0CD2 /* Preview Assets.xcassets */; };
+		ABC50B5028ED2D2600FA0CD2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC50B4F28ED2D2600FA0CD2 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABC50B3728ED2C8600FA0CD2 /* uber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = uber.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABC50B3A28ED2C8600FA0CD2 /* uberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uberApp.swift; sourceTree = "<group>"; };
-		ABC50B3C28ED2C8600FA0CD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABC50B3E28ED2C8900FA0CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABC50B4128ED2C8900FA0CD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABC50B4F28ED2D2600FA0CD2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +51,11 @@
 		ABC50B3928ED2C8600FA0CD2 /* uber */ = {
 			isa = PBXGroup;
 			children = (
-				ABC50B3A28ED2C8600FA0CD2 /* uberApp.swift */,
-				ABC50B3C28ED2C8600FA0CD2 /* ContentView.swift */,
+				ABC50B4C28ED2CAF00FA0CD2 /* App */,
+				ABC50B4B28ED2CAE00FA0CD2 /* Core */,
+				ABC50B4A28ED2CAC00FA0CD2 /* Extensions */,
+				ABC50B4928ED2CAA00FA0CD2 /* Managers */,
+				ABC50B4828ED2CA700FA0CD2 /* Models */,
 				ABC50B3E28ED2C8900FA0CD2 /* Assets.xcassets */,
 				ABC50B4028ED2C8900FA0CD2 /* Preview Content */,
 			);
@@ -65,6 +68,59 @@
 				ABC50B4128ED2C8900FA0CD2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ABC50B4828ED2CA700FA0CD2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		ABC50B4928ED2CAA00FA0CD2 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		ABC50B4A28ED2CAC00FA0CD2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		ABC50B4B28ED2CAE00FA0CD2 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				ABC50B4E28ED2D1500FA0CD2 /* Views */,
+				ABC50B4D28ED2D0B00FA0CD2 /* ViewModel */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		ABC50B4C28ED2CAF00FA0CD2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				ABC50B3A28ED2C8600FA0CD2 /* uberApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		ABC50B4D28ED2D0B00FA0CD2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		ABC50B4E28ED2D1500FA0CD2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ABC50B4F28ED2D2600FA0CD2 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +193,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABC50B3D28ED2C8600FA0CD2 /* ContentView.swift in Sources */,
 				ABC50B3B28ED2C8600FA0CD2 /* uberApp.swift in Sources */,
+				ABC50B5028ED2D2600FA0CD2 /* HomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
